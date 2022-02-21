@@ -4,7 +4,7 @@
 @prefix vars: <http://purl.org/test2/variables/> .
 
 <http://purl.org/test2/variables/> a skos:Concept, skos:ConceptScheme;
-  dct:creator "Diba"@en, "Hannah"@en, "Minka"@en;
+  dct:creator "Hannah"@en;
   dct:description "Test for showcase purposes"@en;
   dct:title "Test2 vocabulary"@en;
   skos:hasTopConcept <http://purl.org/test2/variables/>, vars:Computerscience, vars:Computerscientist,
