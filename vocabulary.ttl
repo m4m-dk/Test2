@@ -1,32 +1,32 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix vars: <http://purl.org/Test2/variables/> .
+@prefix vars: <http://purl.org/test2/variables/> .
 
-<http://purl.org/Test2/variables/> a skos:Concept, skos:ConceptScheme;
+<http://purl.org/test2/variables/> a skos:Concept, skos:ConceptScheme;
   dct:creator "Diba"@en, "Hannah"@en, "Minka"@en;
   dct:description "Test for showcase purposes"@en;
   dct:title "Test2 vocabulary"@en;
-  skos:hasTopConcept <http://purl.org/Test2/variables/>, vars:Computerscience, vars:Computerscientist,
+  skos:hasTopConcept <http://purl.org/test2/variables/>, vars:Computerscience, vars:Computerscientist,
     vars:Test;
-  skos:inScheme <http://purl.org/Test2/variables/>;
-  skos:topConceptOf <http://purl.org/Test2/variables/> .
+  skos:inScheme <http://purl.org/test2/variables/>;
+  skos:topConceptOf <http://purl.org/test2/variables/> .
 
 vars:Test a skos:Concept;
   skos:definition "Test for technical setup"@en;
-  skos:inScheme <http://purl.org/Test2/variables/>;
+  skos:inScheme <http://purl.org/test2/variables/>;
   skos:prefLabel "Test"@en;
-  skos:topConceptOf <http://purl.org/Test2/variables/> .
+  skos:topConceptOf <http://purl.org/test2/variables/> .
 
 vars:Computerscientist a skos:Concept;
   dct:source vars:Computerscience;
   skos:definition "person that studied computerscience"@en;
-  skos:inScheme <http://purl.org/Test2/variables/>;
+  skos:inScheme <http://purl.org/test2/variables/>;
   skos:prefLabel "Computerscientist"@en;
-  skos:topConceptOf <http://purl.org/Test2/variables/> .
+  skos:topConceptOf <http://purl.org/test2/variables/> .
 
 vars:Computerscience a skos:Concept;
   skos:definition "studies of computers"@en;
-  skos:inScheme <http://purl.org/Test2/variables/>;
+  skos:inScheme <http://purl.org/test2/variables/>;
   skos:prefLabel "Computerscience"@en;
-  skos:topConceptOf <http://purl.org/Test2/variables/> .
+  skos:topConceptOf <http://purl.org/test2/variables/> .
